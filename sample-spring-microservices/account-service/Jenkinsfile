@@ -6,7 +6,7 @@ node {
     withMaven(maven:'maven') {
 
         stage('Checkout') {
-            git url: 'https://github.com/pawarganesh1990/Sample_Spring_Microservices_JenkinsSetup.git', branch: 'master'
+            git url: 'https://github.com/pawarganesh1990/DockerProjectSpringBoot.git', branch: 'master'
         }
 
         stage('Build') {
